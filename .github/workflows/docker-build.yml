@@ -4,6 +4,7 @@ on:
     branches: [ "qtpc" ]
   repository_dispatch:
     types: [ "keyboard-definition-trigger" ]
+  workflow_dispatch:
 
 jobs:
   build-and-push:

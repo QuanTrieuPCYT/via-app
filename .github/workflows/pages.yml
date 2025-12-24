@@ -2,6 +2,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ "qtpc" ]
+  repository_dispatch:
+    types: [ "keyboard-definition-trigger" ]
   workflow_dispatch:
 
 permissions:

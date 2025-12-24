@@ -459,6 +459,7 @@ export default {
   QK_CLEAR_EEPROM: 0x7c03,
   QK_LAYER_LOCK: 0x7c7b,
   QK_REBOOT: 0x7c01,
+  QK_SELECT_WORD: 0x7c7c,
   HPT_ON: 0x7c40,
   HPT_OFF: 0x7c41,
   HPT_TOG: 0x7c42,

@@ -460,6 +460,7 @@ export default {
   QK_LAYER_LOCK: 0x7c7b,
   QK_REBOOT: 0x7c01,
   QK_SELECT_WORD: 0x7c7c,
+  QK_LOCK: 0x7c59,
   MAC_SPT: 0x7c7d,
   HPT_ON: 0x7c40,
   HPT_OFF: 0x7c41,
